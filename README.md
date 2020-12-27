@@ -1,4 +1,4 @@
-# mvc-php
+# mvc-php (crud)
 Estrutura MVC criada de forma organizada utilizando rotas dinâmicas e a lib Hydrahon Clancats.
 
 CRUD MVC criado usando técnicas atuais (2020) com base em uma estrutura MVC que utiliza um sistema de rotas dinâmicas.
