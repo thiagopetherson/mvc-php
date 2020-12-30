@@ -15,8 +15,12 @@
         <td><?=$usuario['name'];?></td>
         <td><?=$usuario['email'];?></td>
         <td>
-            <a href="<?=$base;?>/usuario/<?=$usuario['id']?>/editar">[Editar]</a>
-            <a href="<?=$base;?>/usuario/<?=$usuario['id']?>/excluir" onclick="return confirm('Tem certeza que deseja excluir ?')">[Excluir]</a>
+            <a href="<?=$base;?>/usuario/<?=$usuario['id']?>/editar">
+                <img  width="20" src="<?=$base;?>/assets/images/document.png" alt="" />
+            </a>
+            <a href="<?=$base;?>/usuario/<?=$usuario['id']?>/excluir" onclick="return confirm('Tem certeza que deseja excluir ?')">
+                <img width="20" src="<?=$base;?>/assets/images/trash.png" alt="" />
+            </a>
         </td>
     </tr>
 <?php endforeach; ?>
